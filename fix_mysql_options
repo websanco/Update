@@ -1,0 +1,8 @@
+Fix tran dung luong mysql
+
+du -hs /var/lock | sort -rh | head -n 10
+du -hs /var/lib/mysql/* | sort -rh | head -n 10
+du -hs /var/yp/ | sort -rh | head -n 10
+du -hs /var/spool/ | sort -rh | head -n 10
+
+OPTIMIZE TABLE wp_23_options
