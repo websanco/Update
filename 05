@@ -1,0 +1,17 @@
+
+vi /etc/security/limits.conf
+
+ /etc/nginx/nginx.conf
+ worker_rlimit_nofile    20000;
+ https://www.cyberciti.biz/faq/linux-unix-nginx-too-many-open-files/
+ 
+ ulimit -Hn
+ulimit -Sn
+ vi /etc/sysctl.conf
+ 
+ 
+ sysctl -p
+ https://help.directadmin.com/item.php?id=508
+
+ /etc/init.d/mysqld
+ 
