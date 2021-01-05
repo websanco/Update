@@ -6,3 +6,4 @@ du -hs /var/yp/ | sort -rh | head -n 10
 du -hs /var/spool/ | sort -rh | head -n 10
 
 OPTIMIZE TABLE wp_23_options
+https://help.directadmin.com/item.php?id=559
